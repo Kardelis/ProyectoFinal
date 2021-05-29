@@ -1,0 +1,52 @@
+ <div class="map">
+    <div class="container">
+      <img src="img/mapa.jpg" class="img-responsive" alt="" />
+
+      <section id="contact-page">
+        <div class="container">
+          <div class="center">
+            <h2>Deja tu mensaje</h2>
+            <p>Estamos a tu servicio, llena los siguientes campos y te ayudaremos lo más pronto poisble.</p>
+          </div>
+          <form  action="/contacto" method="POST">
+
+          
+            <div class="campo">
+              <label for="asunto">  </label>
+               <input placeholder="Asunto" class="entrada" type="text" name="asunto"
+                  id="asunto" required>
+            
+            </div>
+
+            <div class="campo">
+              <label for="nombre">  </label> 
+              <input class="entrada" placeholder="Nombre" type="text" name="nombre" id="nombre"
+                  required>
+              
+           
+            <div class="campo">
+              <label for="email">  </label> 
+              <input placeholder="Correo" class="entrada" type="email" name="email" id="email"
+                  required>
+            </div>
+
+            <div class="campo">
+              <label for="telefono">  </label> 
+              <input placeholder="Telefono" class="entrada" type="tel" name="telefono"
+                  id="telefono" required>
+             
+            </div>
+
+
+            <div class="campo">
+              <label for="mensaje">  </label> 
+              <textarea placeholder="Mensaje opcional" class="entrada" name="mensaje" id="mensajers"
+                  cols="30" rows="6"></textarea>
+              
+            </div>
+            <button type="submit">Enviar
+            </button>
+            <button type="reset" value="Borrar info">Limpiar
+            </button>
+          </form>
+
